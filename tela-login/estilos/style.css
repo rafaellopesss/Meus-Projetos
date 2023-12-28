@@ -106,6 +106,12 @@ div#formulario input{
 
 }
 
+.icone {
+    vertical-align: middle;
+    font-size: 1.7em;
+    padding: 2px;
+}
+
 /*Botões de entrada*/
 
 .botao {
