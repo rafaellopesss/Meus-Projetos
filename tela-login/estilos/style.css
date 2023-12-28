@@ -121,3 +121,7 @@ div#formulario input{
     color: white;
     
 }
+
+button#esqueci-senha {
+    color: var(--corbordar);
+}
