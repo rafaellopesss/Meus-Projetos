@@ -21,6 +21,7 @@ body {
 
 main {
     width: 280px;
+    height: 96vh;
     background-color: white;
 
     border-radius: 30px;
@@ -81,6 +82,7 @@ div#introducao > p {
 
 
 /*Configurando formulário*/
+
 div#formulario input{
     border: 0 none;
     border-radius: 8px;
