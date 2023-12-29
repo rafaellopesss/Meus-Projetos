@@ -97,6 +97,8 @@ div#formulario input{
     margin-bottom: 4px;
 }
 
+
+
 .keys {
     color: white;
     background-color: var(--corprincipal);
@@ -112,6 +114,11 @@ div#formulario input{
     padding: 2px;
 }
 
+
+.entradas-input:focus  {
+
+    background-color:   lightgrey;
+}
 /*Botões de entrada*/
 
 .botao {
