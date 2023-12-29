@@ -26,14 +26,15 @@
                         <div class="entrada keys" >
                             <p>
                                 <label for="email"> <span class="material-symbols-outlined icone">person</span> </label>
-                                <input type="email" name="" id="email" placeholder="E-mail" required>
+                                <input class="entradas" id="email"  onclick="mudarcorinput()" type="email" name=""placeholder="E-mail" required>
                             </p>
                         </div>
 
                         <div class="entrada keys">
                             <p>
                                 <label for="senha"> <span class="material-symbols-outlined icone">key</span> </label>
-                                <input type="password" name="" id="senha" minlength="8" placeholder="Senha" required>
+
+                                <input class="entradas" id="senha"  onclick="mudarcorinput()" type="password" name=""minlength="8" placeholder="Senha" required>
                             </p>
                         </div>
                     </div>
@@ -55,5 +56,7 @@
                 
         </div>
     </main>
+
+    <script src="javascript/animacao.js"></script>
 </body>
 </html>
