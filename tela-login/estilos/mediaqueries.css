@@ -3,6 +3,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    body {
+        background-image: linear-gradient(to left, #5E2C81, #7A2C82, #422C82);
+    }
     
     
     main {
