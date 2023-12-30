@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+:root {
+    --corprincipal:#5E2C81 ;
+    --corbordar:#4FAAA4;
+}
 
+/*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -42,4 +47,47 @@
     }
 
     
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    
+    body {
+    
+       background-image: url(../imagem/fundotela.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+    main {
+        color: white;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        width: 400px;
+    }
+
+    main > h1 {
+        font-size: 1.6em;
+    }
+
+    div#img, img {
+        display: none;
+    }
+
+    .keys {
+        
+        background-color: var(--corbordar);
+    }
+    
+    
+
+    .icone {
+        font-size: 2em;
+    }
+    .botao {
+        background-color: color(white red green blue) ;
+        color: black;
+        font-size: 1em;
+    }
 }
